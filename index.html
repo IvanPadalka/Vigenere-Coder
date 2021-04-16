@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="choice">
+      <p>Дешифрувати</p>
+      <label class="switch">
+        <input id="encrypt" type="checkbox" checked>
+        <span class="slider"></span>
+      </label>
+      <p>Шифрувати</p>
+    </div>
+    <h2>Текст</h2>
+    <textarea id="clear" rows="8" cols="20"></textarea>
+    <div class="shiftChoice">
+      <div class="labelWrap">
+        <label for="shift">Ключ : </label>
+      </div>
+      <div class="inputWrap">
+        <input id="key" type="text"/>
+      </div>
+    </div>
+    <h2>Розшифрований текст</h2>
+    <textarea id="encrypted" rows="8" cols="20"></textarea>
+  </div>
+</body>
+</html>
